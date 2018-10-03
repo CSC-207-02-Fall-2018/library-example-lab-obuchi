@@ -1,0 +1,21 @@
+    /*****************************************************************
+     * Obuchi Adikema                                                *
+     * Box 3016                                                      *
+     * Program for CSC 207                                           *
+     *   Example with Class and Interface Inheritance                *
+     * Assignment for 2018/10/03                                     *
+     *****************************************************************/
+
+
+    /* ***************************************************************
+     * Academic honesty certification:                               *
+     *   Written/online sources used:                                *
+     *     None                                                      *
+     *   Help obtained                                               *
+     *     Talked to Claire Simpson about documentation              *
+     *   My signature below confirms that the above list of sources  *
+     *   is complete AND that I have not talked to anyone else       *
+     *   [e.g., CSC 161 students] about the solution to this problem *
+     *                                                               *
+     *   Signature: Obuchi Adikema                                   *
+     *****************************************************************/
