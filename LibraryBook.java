@@ -8,10 +8,18 @@ public abstract class LibraryBook extends Book implements Comparable<LibraryBook
 		callNumber = callNum;
 	}
 	
+	/**
+	 * returns the call number
+	 * @return callNumber
+	 */
 	public String getCallNumber () {
 		return callNumber;
 	}
 	
+	/**
+	 * sets the call number to the given call number
+	 * @param callNumber
+	 */
 	public void setCallNumber(String callNumber) {
 		this.callNumber = callNumber;
 	}
@@ -22,6 +30,9 @@ public abstract class LibraryBook extends Book implements Comparable<LibraryBook
 	
 	abstract void returned ();
 	
+	/** 
+	 * compares the given LibraryBook object to the the current LibraryBook object 
+	 */
 	public int compareTo (LibraryBook lib) {
 		if (this.callNumber.equals(lib.getCallNumber()) ) {
 			return 0;
@@ -30,7 +41,6 @@ public abstract class LibraryBook extends Book implements Comparable<LibraryBook
 			return this.callNumber.compareTo(lib.getCallNumber());	
 		}
 	}
-
 
 	public String toString() {
 		return super.toString() + "Call Number: " + callNumber + "\n"; 

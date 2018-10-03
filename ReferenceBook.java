@@ -12,6 +12,10 @@ public class ReferenceBook extends LibraryBook {
 		System.out.println(patron + " cannot checkout a refrence book \n");
 	}
 	
+	/**
+	 * returns the name of the collection of books
+	 * @return collection
+	 */
 	public String getCollection() {
 		return collection;
 	}
@@ -20,6 +24,10 @@ public class ReferenceBook extends LibraryBook {
 		System.out.println("reference book could not have been checked out -- return impossible");
 	}
 	
+	/**
+	 * sets the name of the collection of books to the given name
+	 * @param collection
+	 */
 	public void setCollection(String collection) {
 		this.collection = collection;
 	}

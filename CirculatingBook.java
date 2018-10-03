@@ -9,8 +9,10 @@ public class CirculatingBook extends LibraryBook {
 		currentHolder = "";
 		dueDate = "";
 	}
-
-
+	
+	/** 
+	 * returns the circulation status of a book
+	 */
 	public String circulationStatus() {
 		if (currentHolder.equals("")) {
 			return "Current Holder: " + currentHolder + "\n Due Date: " + dueDate;
@@ -19,12 +21,18 @@ public class CirculatingBook extends LibraryBook {
 		return "book available on shelves";		
 	}
 
+	/**
+	 * saves the given patron and due date of a book
+	 */
 	public void checkout(String patron, String dueDate) {
 		currentHolder = patron;
 		this.dueDate = dueDate;
 		
 	}
 
+	/**
+	 * clears the currentHolder and dueDate of a book
+	 */
 	public void returned() {
 		currentHolder = "";
 		dueDate = "";
